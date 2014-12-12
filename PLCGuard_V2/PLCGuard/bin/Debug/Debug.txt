@@ -1,0 +1,21 @@
+
+27-11-2014 17:51
+Detail: System.Threading.ThreadAbortException: Thread was being aborted.
+   at PLCGuard.LogInterface.SendMail(String from, String subject, String message, String to, String host, String login, String password) in d:\CSharp\PLCGuard\PLCGuard\MainWindow.xaml.cs:line 225
+   at PLCGuard.MainWindow.GuardThreadV2() in d:\CSharp\PLCGuard\PLCGuard\MainWindow.xaml.cs:line 535
+
+27-11-2014 17:52
+Detail: System.Threading.ThreadAbortException: Thread was being aborted.
+   at PLCGuard.LogInterface.SendMail(String from, String subject, String message, String to, String host, String login, String password) in d:\CSharp\PLCGuard\PLCGuard\MainWindow.xaml.cs:line 225
+   at PLCGuard.MainWindow.GuardThreadV2() in d:\CSharp\PLCGuard\PLCGuard\MainWindow.xaml.cs:line 535
+
+27-11-2014 17:55
+Detail: System.Threading.ThreadAbortException: Thread was being aborted.
+   at PLCGuard.LogInterface.SendMail(String from, String subject, String message, String to, String host, String login, String password) in d:\CSharp\PLCGuard\PLCGuard\MainWindow.xaml.cs:line 225
+   at PLCGuard.MainWindow.GuardThreadV2() in d:\CSharp\PLCGuard\PLCGuard\MainWindow.xaml.cs:line 535
+
+12-12-2014 9:55
+Detail: System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.SleepInternal(Int32 millisecondsTimeout)
+   at System.Threading.Thread.Sleep(Int32 millisecondsTimeout)
+   at PLCGuard.MainWindow.GuardThreadV2() in c:\Users\Bjekas\Desktop\PLCGuard\PLCGuard\MainWindow.xaml.cs:line 605

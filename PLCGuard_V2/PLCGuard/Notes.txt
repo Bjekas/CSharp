@@ -1,0 +1,17 @@
+﻿to do:
+- Metro look
+- Adicionar notificações com tag (inteiro ou bit) no GUI
+- Nas notificações adicionar botão com all
+- Enables das notificações
+- Comandos por email (enable/disable, )
+- if error on loading config file create a new one
+
+ideias:
+- wait for flag to allow thread abort. Waits 1m for flag... if no response force close.
+- Desbloquear Debug
+- lista de plcs com visualização de estado na pagina de debug
+- Aviso na falha de inicialização do plc (ping responde mas nao consegue inicializar S7 communication com target)
+- timers nas notificações. Sleep = 100ms e os timers incrementam
+- armazenar emails por enviar. Quando existir ligação enviar emails em buffer
+- interface via email (enable/disable da notificação)  http://www.rapidtables.com/web/html/mailto.htm
+- work with SMS

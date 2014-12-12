@@ -1,0 +1,136 @@
+\\ptlisi041dat.pt001.siemens.net\z003c9xm$\My Documents\Visual Studio 2013\Projects\TPCServerTest\PLCGuard\PLCGuard\bin\Debug\PLCGuard.exe.config
+\\ptlisi041dat.pt001.siemens.net\z003c9xm$\My Documents\Visual Studio 2013\Projects\TPCServerTest\PLCGuard\PLCGuard\obj\Debug\PLCGuard.csprojResolveAssemblyReference.cache
+\\ptlisi041dat.pt001.siemens.net\z003c9xm$\My Documents\Visual Studio 2013\Projects\TPCServerTest\PLCGuard\PLCGuard\obj\Debug\MainWindow.baml
+\\ptlisi041dat.pt001.siemens.net\z003c9xm$\My Documents\Visual Studio 2013\Projects\TPCServerTest\PLCGuard\PLCGuard\obj\Debug\MainWindow.g.cs
+\\ptlisi041dat.pt001.siemens.net\z003c9xm$\My Documents\Visual Studio 2013\Projects\TPCServerTest\PLCGuard\PLCGuard\obj\Debug\App.g.cs
+\\ptlisi041dat.pt001.siemens.net\z003c9xm$\My Documents\Visual Studio 2013\Projects\TPCServerTest\PLCGuard\PLCGuard\obj\Debug\PLCGuard_MarkupCompile.cache
+\\ptlisi041dat.pt001.siemens.net\z003c9xm$\My Documents\Visual Studio 2013\Projects\TPCServerTest\PLCGuard\PLCGuard\obj\Debug\PLCGuard.g.resources
+\\ptlisi041dat.pt001.siemens.net\z003c9xm$\My Documents\Visual Studio 2013\Projects\TPCServerTest\PLCGuard\PLCGuard\obj\Debug\PLCGuard.Properties.Resources.resources
+\\ptlisi041dat.pt001.siemens.net\z003c9xm$\My Documents\Visual Studio 2013\Projects\TPCServerTest\PLCGuard\PLCGuard\obj\Debug\PLCGuard.csproj.GenerateResource.Cache
+\\ptlisi041dat.pt001.siemens.net\z003c9xm$\My Documents\Visual Studio 2013\Projects\TPCServerTest\PLCGuard\PLCGuard\bin\Debug\PLCGuard.exe
+\\ptlisi041dat.pt001.siemens.net\z003c9xm$\My Documents\Visual Studio 2013\Projects\TPCServerTest\PLCGuard\PLCGuard\bin\Debug\PLCGuard.pdb
+\\ptlisi041dat.pt001.siemens.net\z003c9xm$\My Documents\Visual Studio 2013\Projects\TPCServerTest\PLCGuard\PLCGuard\obj\Debug\PLCGuard.exe
+\\ptlisi041dat.pt001.siemens.net\z003c9xm$\My Documents\Visual Studio 2013\Projects\TPCServerTest\PLCGuard\PLCGuard\obj\Debug\PLCGuard.pdb
+\\ptlisi041dat.pt001.siemens.net\z003c9xm$\My Documents\Visual Studio 2013\Projects\PLCGuard\PLCGuard\bin\Debug\PLCGuard.exe.config
+\\ptlisi041dat.pt001.siemens.net\z003c9xm$\My Documents\Visual Studio 2013\Projects\PLCGuard\PLCGuard\obj\Debug\PLCGuard.exe
+\\ptlisi041dat.pt001.siemens.net\z003c9xm$\My Documents\Visual Studio 2013\Projects\PLCGuard\PLCGuard\obj\Debug\PLCGuard.pdb
+\\ptlisi041dat.pt001.siemens.net\z003c9xm$\My Documents\Visual Studio 2013\Projects\PLCGuard\PLCGuard\bin\Debug\PLCGuard.exe
+\\ptlisi041dat.pt001.siemens.net\z003c9xm$\My Documents\Visual Studio 2013\Projects\PLCGuard\PLCGuard\bin\Debug\PLCGuard.pdb
+\\ptlisi041dat.pt001.siemens.net\z003c9xm$\My Documents\Visual Studio 2013\Projects\PLCGuard\PLCGuard\bin\Debug\libnodave.net.dll
+\\ptlisi041dat.pt001.siemens.net\z003c9xm$\My Documents\Visual Studio 2013\Projects\PLCGuard\PLCGuard\obj\Debug\PLCGuard.csprojResolveAssemblyReference.cache
+\\ptlisi041dat.pt001.siemens.net\z003c9xm$\My Documents\Visual Studio 2013\Projects\PLCGuard\PLCGuard\obj\Debug\MainWindow.baml
+\\ptlisi041dat.pt001.siemens.net\z003c9xm$\My Documents\Visual Studio 2013\Projects\PLCGuard\PLCGuard\obj\Debug\MainWindow.g.cs
+\\ptlisi041dat.pt001.siemens.net\z003c9xm$\My Documents\Visual Studio 2013\Projects\PLCGuard\PLCGuard\obj\Debug\App.g.cs
+\\ptlisi041dat.pt001.siemens.net\z003c9xm$\My Documents\Visual Studio 2013\Projects\PLCGuard\PLCGuard\obj\Debug\PLCGuard_MarkupCompile.cache
+\\ptlisi041dat.pt001.siemens.net\z003c9xm$\My Documents\Visual Studio 2013\Projects\PLCGuard\PLCGuard\obj\Debug\PLCGuard.g.resources
+\\ptlisi041dat.pt001.siemens.net\z003c9xm$\My Documents\Visual Studio 2013\Projects\PLCGuard\PLCGuard\obj\Debug\PLCGuard.Properties.Resources.resources
+\\ptlisi041dat.pt001.siemens.net\z003c9xm$\My Documents\Visual Studio 2013\Projects\PLCGuard\PLCGuard\obj\Debug\PLCGuard.csproj.GenerateResource.Cache
+C:\Users\Bjekas\Documents\Visual Studio 2013\Projects\PLCGuard\PLCGuard\bin\Debug\PLCGuard.exe.config
+C:\Users\Bjekas\Documents\Visual Studio 2013\Projects\PLCGuard\PLCGuard\obj\Debug\PLCGuard.exe
+C:\Users\Bjekas\Documents\Visual Studio 2013\Projects\PLCGuard\PLCGuard\obj\Debug\PLCGuard.pdb
+C:\Users\Bjekas\Documents\Visual Studio 2013\Projects\PLCGuard\PLCGuard\bin\Debug\PLCGuard.exe
+C:\Users\Bjekas\Documents\Visual Studio 2013\Projects\PLCGuard\PLCGuard\bin\Debug\PLCGuard.pdb
+C:\Users\Bjekas\Documents\Visual Studio 2013\Projects\PLCGuard\PLCGuard\bin\Debug\libnodave.net.dll
+C:\Users\Bjekas\Documents\Visual Studio 2013\Projects\PLCGuard\PLCGuard\obj\Debug\MainWindow.baml
+C:\Users\Bjekas\Documents\Visual Studio 2013\Projects\PLCGuard\PLCGuard\obj\Debug\MainWindow.g.cs
+C:\Users\Bjekas\Documents\Visual Studio 2013\Projects\PLCGuard\PLCGuard\obj\Debug\App.g.cs
+C:\Users\Bjekas\Documents\Visual Studio 2013\Projects\PLCGuard\PLCGuard\obj\Debug\PLCGuard_MarkupCompile.cache
+C:\Users\Bjekas\Documents\Visual Studio 2013\Projects\PLCGuard\PLCGuard\obj\Debug\PLCGuard.g.resources
+C:\Users\Bjekas\Documents\Visual Studio 2013\Projects\PLCGuard\PLCGuard\obj\Debug\PLCGuard.Properties.Resources.resources
+C:\Users\Bjekas\Documents\Visual Studio 2013\Projects\PLCGuard\PLCGuard\obj\Debug\PLCGuard.csproj.GenerateResource.Cache
+C:\Users\Bjekas\Documents\Visual Studio 2013\Projects\PLCGuard\PLCGuard\obj\Debug\PLCGuard.csprojResolveAssemblyReference.cache
+D:\CSharp\PLCGuard\PLCGuard\bin\Debug\PLCGuard.exe.config
+D:\CSharp\PLCGuard\PLCGuard\bin\Debug\PLCGuard.exe
+D:\CSharp\PLCGuard\PLCGuard\bin\Debug\PLCGuard.pdb
+D:\CSharp\PLCGuard\PLCGuard\bin\Debug\libnodave.net.dll
+D:\CSharp\PLCGuard\PLCGuard\obj\Debug\MainWindow.baml
+D:\CSharp\PLCGuard\PLCGuard\obj\Debug\MainWindow.g.cs
+D:\CSharp\PLCGuard\PLCGuard\obj\Debug\App.g.cs
+D:\CSharp\PLCGuard\PLCGuard\obj\Debug\PLCGuard_MarkupCompile.cache
+D:\CSharp\PLCGuard\PLCGuard\obj\Debug\PLCGuard.g.resources
+D:\CSharp\PLCGuard\PLCGuard\obj\Debug\PLCGuard.Properties.Resources.resources
+D:\CSharp\PLCGuard\PLCGuard\obj\Debug\PLCGuard.csproj.GenerateResource.Cache
+D:\CSharp\PLCGuard\PLCGuard\obj\Debug\PLCGuard.exe
+D:\CSharp\PLCGuard\PLCGuard\obj\Debug\PLCGuard.pdb
+D:\CSharp\PLCGuard\PLCGuard\obj\Debug\Pages\PageConfig.baml
+D:\CSharp\PLCGuard\PLCGuard\obj\Debug\Pages\PageDebug.baml
+D:\CSharp\PLCGuard\PLCGuard\obj\Debug\Pages\PageConfig.g.cs
+D:\CSharp\PLCGuard\PLCGuard\obj\Debug\Pages\PageDebug.g.cs
+D:\CSharp\PLCGuard\PLCGuard\obj\Debug\Pages\Page_PLCList.baml
+D:\CSharp\PLCGuard\PLCGuard\obj\Debug\Pages\Page_PLCList.g.cs
+D:\CSharp\PLCGuard\PLCGuard\obj\Debug\Pages\Page_AddPLC.baml
+D:\CSharp\PLCGuard\PLCGuard\obj\Debug\Pages\Page_AddPLC.g.cs
+D:\CSharp\PLCGuard\PLCGuard\obj\Debug\Pages\Page_EditPLC.baml
+D:\CSharp\PLCGuard\PLCGuard\obj\Debug\Pages\Page_EditPLC.g.cs
+D:\CSharp\PLCGuard\PLCGuard\obj\Debug\Pages\Page_PLCInfo.baml
+D:\CSharp\PLCGuard\PLCGuard\obj\Debug\Pages\Page_PLCInfo.g.cs
+D:\CSharp\PLCGuard\PLCGuard\obj\Debug\Pages\Page_AddUserNot.baml
+D:\CSharp\PLCGuard\PLCGuard\obj\Debug\Pages\Page_EditUserNot.baml
+D:\CSharp\PLCGuard\PLCGuard\obj\Debug\Pages\Page_AddUserNot.g.cs
+D:\CSharp\PLCGuard\PLCGuard\obj\Debug\Pages\Page_EditUserNot.g.cs
+D:\CSharp\PLCGuard\PLCGuard\obj\Debug\Pages\Page_UserNotList.baml
+D:\CSharp\PLCGuard\PLCGuard\obj\Debug\Pages\Page_UserNotList.g.cs
+D:\CSharp\PLCGuard\PLCGuard\obj\Debug\Pages\Page_UserNotInfo.baml
+D:\CSharp\PLCGuard\PLCGuard\obj\Debug\Pages\Page_UserNotInfo.g.cs
+D:\CSharp\PLCGuard\PLCGuard\obj\Debug\Pages\Page_DebugList.baml
+D:\CSharp\PLCGuard\PLCGuard\obj\Debug\Pages\Page_DebugList.g.cs
+D:\CSharp\PLCGuard\PLCGuard\obj\Debug\Pages\Page_AddDebugger.baml
+D:\CSharp\PLCGuard\PLCGuard\obj\Debug\Pages\Page_AddDebugger.g.cs
+D:\CSharp\PLCGuard\PLCGuard\obj\Debug\Pages\Page_EditDebugger.baml
+D:\CSharp\PLCGuard\PLCGuard\obj\Debug\Pages\Page_EditDebugger.g.cs
+D:\CSharp\PLCGuard\PLCGuard\obj\Debug\Pages\Page_Login.baml
+D:\CSharp\PLCGuard\PLCGuard\obj\Debug\Pages\Page_Login.g.cs
+D:\CSharp\PLCGuard\PLCGuard\obj\Debug\Resources\Dictionary1.baml
+D:\CSharp\PLCGuard\PLCGuard\obj\Debug\Resources\Page_Styles.baml
+D:\CSharp\PLCGuard\PLCGuard\obj\Debug\TestWindow.baml
+D:\CSharp\PLCGuard\PLCGuard\obj\Debug\TestWindow.g.cs
+C:\Users\Bjekas\Desktop\PLCGuard\PLCGuard\bin\Debug\PLCGuard.exe.config
+C:\Users\Bjekas\Desktop\PLCGuard\PLCGuard\obj\Debug\PLCGuard.exe
+C:\Users\Bjekas\Desktop\PLCGuard\PLCGuard\obj\Debug\PLCGuard.pdb
+C:\Users\Bjekas\Desktop\PLCGuard\PLCGuard\bin\Debug\PLCGuard.exe
+C:\Users\Bjekas\Desktop\PLCGuard\PLCGuard\bin\Debug\PLCGuard.pdb
+C:\Users\Bjekas\Desktop\PLCGuard\PLCGuard\bin\Debug\libnodave.net.dll
+C:\Users\Bjekas\Desktop\PLCGuard\PLCGuard\obj\Debug\PLCGuard.csprojResolveAssemblyReference.cache
+C:\Users\Bjekas\Desktop\PLCGuard\PLCGuard\obj\Debug\Resources\Page_Styles.baml
+C:\Users\Bjekas\Desktop\PLCGuard\PLCGuard\obj\Debug\Resources\Dictionary1.baml
+C:\Users\Bjekas\Desktop\PLCGuard\PLCGuard\obj\Debug\MainWindow.baml
+C:\Users\Bjekas\Desktop\PLCGuard\PLCGuard\obj\Debug\Pages\PageConfig.baml
+C:\Users\Bjekas\Desktop\PLCGuard\PLCGuard\obj\Debug\Pages\PageDebug.baml
+C:\Users\Bjekas\Desktop\PLCGuard\PLCGuard\obj\Debug\Pages\Page_AddDebugger.baml
+C:\Users\Bjekas\Desktop\PLCGuard\PLCGuard\obj\Debug\Pages\Page_AddUserNot.baml
+C:\Users\Bjekas\Desktop\PLCGuard\PLCGuard\obj\Debug\Pages\Page_AddPLC.baml
+C:\Users\Bjekas\Desktop\PLCGuard\PLCGuard\obj\Debug\Pages\Page_DebugList.baml
+C:\Users\Bjekas\Desktop\PLCGuard\PLCGuard\obj\Debug\Pages\Page_EditDebugger.baml
+C:\Users\Bjekas\Desktop\PLCGuard\PLCGuard\obj\Debug\Pages\Page_EditPLC.baml
+C:\Users\Bjekas\Desktop\PLCGuard\PLCGuard\obj\Debug\Pages\Page_EditUserNot.baml
+C:\Users\Bjekas\Desktop\PLCGuard\PLCGuard\obj\Debug\Pages\Page_Login.baml
+C:\Users\Bjekas\Desktop\PLCGuard\PLCGuard\obj\Debug\Pages\Page_PLCInfo.baml
+C:\Users\Bjekas\Desktop\PLCGuard\PLCGuard\obj\Debug\Pages\Page_PLCList.baml
+C:\Users\Bjekas\Desktop\PLCGuard\PLCGuard\obj\Debug\Pages\Page_UserNotInfo.baml
+C:\Users\Bjekas\Desktop\PLCGuard\PLCGuard\obj\Debug\Pages\Page_UserNotList.baml
+C:\Users\Bjekas\Desktop\PLCGuard\PLCGuard\obj\Debug\TestWindow.baml
+C:\Users\Bjekas\Desktop\PLCGuard\PLCGuard\obj\Debug\App.baml
+C:\Users\Bjekas\Desktop\PLCGuard\PLCGuard\obj\Debug\MainWindow.g.cs
+C:\Users\Bjekas\Desktop\PLCGuard\PLCGuard\obj\Debug\Pages\PageConfig.g.cs
+C:\Users\Bjekas\Desktop\PLCGuard\PLCGuard\obj\Debug\Pages\PageDebug.g.cs
+C:\Users\Bjekas\Desktop\PLCGuard\PLCGuard\obj\Debug\Pages\Page_AddDebugger.g.cs
+C:\Users\Bjekas\Desktop\PLCGuard\PLCGuard\obj\Debug\Pages\Page_AddUserNot.g.cs
+C:\Users\Bjekas\Desktop\PLCGuard\PLCGuard\obj\Debug\Pages\Page_AddPLC.g.cs
+C:\Users\Bjekas\Desktop\PLCGuard\PLCGuard\obj\Debug\Pages\Page_DebugList.g.cs
+C:\Users\Bjekas\Desktop\PLCGuard\PLCGuard\obj\Debug\Pages\Page_EditDebugger.g.cs
+C:\Users\Bjekas\Desktop\PLCGuard\PLCGuard\obj\Debug\Pages\Page_EditPLC.g.cs
+C:\Users\Bjekas\Desktop\PLCGuard\PLCGuard\obj\Debug\Pages\Page_EditUserNot.g.cs
+C:\Users\Bjekas\Desktop\PLCGuard\PLCGuard\obj\Debug\Pages\Page_Login.g.cs
+C:\Users\Bjekas\Desktop\PLCGuard\PLCGuard\obj\Debug\Pages\Page_PLCInfo.g.cs
+C:\Users\Bjekas\Desktop\PLCGuard\PLCGuard\obj\Debug\Pages\Page_PLCList.g.cs
+C:\Users\Bjekas\Desktop\PLCGuard\PLCGuard\obj\Debug\Pages\Page_UserNotInfo.g.cs
+C:\Users\Bjekas\Desktop\PLCGuard\PLCGuard\obj\Debug\Pages\Page_UserNotList.g.cs
+C:\Users\Bjekas\Desktop\PLCGuard\PLCGuard\obj\Debug\TestWindow.g.cs
+C:\Users\Bjekas\Desktop\PLCGuard\PLCGuard\obj\Debug\App.g.cs
+C:\Users\Bjekas\Desktop\PLCGuard\PLCGuard\obj\Debug\PLCGuard_MarkupCompile.cache
+C:\Users\Bjekas\Desktop\PLCGuard\PLCGuard\obj\Debug\PLCGuard.g.resources
+C:\Users\Bjekas\Desktop\PLCGuard\PLCGuard\obj\Debug\PLCGuard.Properties.Resources.resources
+C:\Users\Bjekas\Desktop\PLCGuard\PLCGuard\obj\Debug\PLCGuard.csproj.GenerateResource.Cache
+C:\Users\Bjekas\Desktop\PLCGuard\PLCGuard\bin\Debug\MahApps.Metro.dll
+C:\Users\Bjekas\Desktop\PLCGuard\PLCGuard\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Bjekas\Desktop\PLCGuard\PLCGuard\bin\Debug\MahApps.Metro.xml

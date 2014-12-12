@@ -1,0 +1,17 @@
+to do:
+- Passwords no acesso a menus
+- Verificar se IP ja existe
+- Verificar se User ja existe
+- Melhor Check de IP e Email
+- Enables das notificações
+- On change save to file
+- Comandos por email (enable/disable, )
+
+
+ideias:
+- wait for flag to allow thread abort. Waits 1m for flag... if no response force close.
+- Aviso na falha de inicialização do plc (ping responde mas nao consegue inicializar S7 communication com target)
+- timers nas notificações. Sleep = 100ms e os timers incrementam
+- armazenar emails por enviar. Quando existir ligação enviar emails em buffer
+- Notificação dinamica. Configura-se DB, byte e bit para enviar alerta
+- interface via email (enable/disable da notificação)  http://www.rapidtables.com/web/html/mailto.htm
