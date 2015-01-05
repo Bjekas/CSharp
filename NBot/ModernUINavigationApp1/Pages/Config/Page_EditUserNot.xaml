@@ -1,0 +1,44 @@
+﻿<UserControl x:Class="NBot.Pages.Config.Page_EditUserNot"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:mui="http://firstfloorsoftware.com/ModernUI"
+             mc:Ignorable="d" 
+             d:DesignHeight="433" d:DesignWidth="550" Loaded="UserControl_Loaded">
+    <Grid Style="{StaticResource ContentRoot}">
+        <Path x:Name="nok_icon" Width="23" Height="23" Stretch="Fill" Fill="Red" Data="F1 M 38,22.1667C 41.1666,22.1667 57,52.25 55.4166,53.8333C 53.8333,55.4167 22.1667,55.4167 20.5833,53.8333C 19,52.25 34.8333,22.1667 38,22.1667 Z M 38,45.9167C 36.6883,45.9167 35.625,46.98 35.625,48.2917C 35.625,49.6034 36.6883,50.6667 38,50.6667C 39.3116,50.6667 40.375,49.6034 40.375,48.2917C 40.375,46.98 39.3116,45.9167 38,45.9167 Z M 35.625,31.6667L 36.4166,44.3333L 39.5833,44.3333L 40.375,31.6667L 35.625,31.6667 Z " Visibility="Hidden"/>
+        <Path x:Name="ok_icon" Width="23" Height="23" Stretch="Fill" Fill="GreenYellow" Data="F1 M 23.7501,33.25L 34.8334,44.3333L 52.2499,22.1668L 56.9999,26.9168L 34.8334,53.8333L 19.0001,38L 23.7501,33.25 Z " Visibility="Hidden"/>
+        <ScrollViewer>
+            <StackPanel>
+                <TextBlock Text="Add new user" Style="{StaticResource Heading2}" Foreground="OrangeRed"/>
+                <Grid Height="367">
+                    <TextBlock x:Name="UsernameL" Text="Username" Foreground="Orange" Margin="10,14,0,-14" HorizontalAlignment="Left" Width="106" Height="22" VerticalAlignment="Top"/>
+                    <TextBox x:Name="UsernameTB" Margin="88,10,0,0" Height="22" VerticalAlignment="Top" HorizontalAlignment="Left" Width="190" TextChanged="UsernameTB_TextChanged"/>
+                    <TextBlock x:Name="EmailL" Text="Email" Foreground="Orange" Margin="10,45,0,-45" HorizontalAlignment="Left" Width="106" Height="22" VerticalAlignment="Top"/>
+                    <TextBox x:Name="EmailTB" Margin="88,41,0,-2" Height="22" VerticalAlignment="Top" HorizontalAlignment="Left" Width="190" TextChanged="EmailTB_TextChanged"/>
+
+                    <Canvas HorizontalAlignment="Left" Height="23" Margin="283,10,0,0" VerticalAlignment="Top" Width="23">
+                        <Path x:Name="INameCheck" Width="23" Height="23" Stretch="Fill"/>
+                    </Canvas>
+                    <Canvas HorizontalAlignment="Left" Height="23" Margin="283,38,0,0" VerticalAlignment="Top" Width="23">
+                        <Path x:Name="IEmailCheck" Width="23" Height="23" Stretch="Fill"/>
+                    </Canvas>
+
+                    <TextBlock Text="User notifications" Style="{StaticResource Heading2}" Foreground="OrangeRed" Margin="0,92,0,222"/>
+                    <TextBlock Text="Inactive" Foreground="Red" Margin="10,114,0,0" HorizontalAlignment="Left" Width="200" Height="22" VerticalAlignment="Top"/>
+                    <ListBox x:Name="LBInactive" Margin="10,132,0,12" HorizontalAlignment="Left" Width="200" SelectionChanged="LBInactive_SelectionChanged" BorderBrush="Red" BorderThickness="1" />
+                    <Button x:Name="BAdd" Content="----&gt;" Style="{DynamicResource SquareButtonStyle}" Height="30" VerticalAlignment="Top" Margin="215,132,0,0" Click="BAdd_Click" HorizontalAlignment="Left" Width="79"/>
+                    <Button x:Name="BAddAll" Content="All ----&gt;" Style="{DynamicResource SquareButtonStyle}" Height="30" VerticalAlignment="Top" Margin="215,167,0,0" HorizontalAlignment="Left" Width="79" Click="BAddAll_Click"/>
+                    <Button x:Name="BRemove" Content="&lt;----" Style="{DynamicResource SquareButtonStyle}" Height="30" VerticalAlignment="Top" Margin="215,325,0,0" Click="BRemove_Click" HorizontalAlignment="Left" Width="79"/>
+                    <Button x:Name="BRemoveAll" Content="&lt;---- All" Style="{DynamicResource SquareButtonStyle}" Height="30" VerticalAlignment="Top" Margin="215,290,0,0" HorizontalAlignment="Left" Width="79" Click="BRemoveAll_Click"/>
+                    <TextBlock Text="Active" Foreground="GreenYellow" Margin="299,114,0,0" HorizontalAlignment="Left" Width="200" Height="22" VerticalAlignment="Top"/>
+                    <ListBox x:Name="LBActive" Margin="299,132,0,12" HorizontalAlignment="Left" Width="200" SelectionChanged="LBActive_SelectionChanged" BorderBrush="GreenYellow" BorderThickness="1" />
+
+                    <Button x:Name ="BCancel" Content="Cancel" Style="{DynamicResource SquareButtonStyle}" Margin="424,62,0,0" HorizontalAlignment="Left" Width="75" Height="30" VerticalAlignment="Top" Click="BCancel_Click"/>
+                    <Button x:Name ="BSave" Content="Save" Style="{DynamicResource SquareButtonStyle}" Margin="424,10,0,0" Height="30" VerticalAlignment="Top" HorizontalAlignment="Left" Width="75" Click="BSave_Click"/>
+                </Grid>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</UserControl>

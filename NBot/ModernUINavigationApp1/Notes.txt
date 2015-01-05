@@ -1,0 +1,18 @@
+﻿to do:
+- lista de plcs com visualização de estado na pagina de debug
+- Resolver problema com registar primeiros logs no ActivityLog window
+- testar com 2 plc's
+- exportar ficheiro de config num ficheiro externo sem estar encriptado (sem passwords)
+- importar ficheiro de config de um ficheiro externo sem passwords
+- Carregar notas de um ficheiro pre defenido (update notes)
+
+ideas:
+- wait for flag to allow thread abort. Waits 1m for flag... if no response force close.
+- Enables das notificações
+- Comandos por email (enable/disable, )
+- if error on loading config file create a new one
+- Aviso na falha de inicialização do plc (ping responde mas nao consegue inicializar S7 communication com target)
+- timers nas notificações. Sleep = 100ms e os timers incrementam
+- armazenar emails por enviar. Quando existir ligação enviar emails em buffer
+- interface via email (enable/disable da notificação)  http://www.rapidtables.com/web/html/mailto.htm
+- work with SMS

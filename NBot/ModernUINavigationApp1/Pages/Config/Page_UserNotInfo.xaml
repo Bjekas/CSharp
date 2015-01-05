@@ -1,0 +1,25 @@
+﻿<UserControl x:Class="NBot.Pages.Config.Page_UserNotInfo"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:mui="http://firstfloorsoftware.com/ModernUI"
+             mc:Ignorable="d" 
+             d:DesignHeight="433" d:DesignWidth="550" Loaded="Page_Loaded">
+    <Grid Style="{StaticResource ContentRoot}">
+        <ScrollViewer >
+            <StackPanel>
+                <Grid Height="367">
+                    <TextBlock x:Name="LUserName" Text="Username" Foreground="Orange" Margin="10,10,0,0" HorizontalAlignment="Left" Width="106" Height="22" VerticalAlignment="Top"/>
+                    <TextBlock x:Name="LEmailAddr" Text="Email" Foreground="Orange" Margin="10,38,0,0" HorizontalAlignment="Left" Width="106" Height="22" VerticalAlignment="Top"/>
+                    <TextBlock x:Name="LName" Text="" Foreground="White" Margin="77,10,0,0" HorizontalAlignment="Left" Width="198" Height="22" VerticalAlignment="Top"/>
+                    <TextBlock x:Name="LEmail" Text="" Foreground="White" Margin="77,38,0,0" HorizontalAlignment="Left" Width="198" Height="22" VerticalAlignment="Top"/>
+
+                    <TextBlock x:Name="LActive" Text="Active notifications" Foreground="GreenYellow" Margin="10,78,0,0" HorizontalAlignment="Left" Width="106" Height="22" VerticalAlignment="Top"/>
+
+                    <ListBox x:Name ="LBActive" HorizontalAlignment="Left" Height="258" Margin="10,100,0,0" VerticalAlignment="Top" Width="150" RenderTransformOrigin="0.487,-0.56" ScrollViewer.VerticalScrollBarVisibility="Auto" BorderBrush="GreenYellow" BorderThickness="1" />
+                </Grid>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</UserControl>

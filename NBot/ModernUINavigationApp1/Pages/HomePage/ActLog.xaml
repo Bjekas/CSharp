@@ -1,0 +1,25 @@
+﻿<UserControl x:Class="NBot.Pages.HomePage.ActLog"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+             xmlns:mui="http://firstfloorsoftware.com/ModernUI"
+             mc:Ignorable="d" Width="1024" Height="768">
+    <Grid Style="{StaticResource ContentRoot}">
+        <ScrollViewer>
+            <StackPanel MinWidth="200">                
+                <Grid >
+                    <TextBlock Text="Activity Log" Style="{StaticResource Heading1}" Foreground="White"/>                    
+                    <DataGrid x:Name="DGLog" AutoGenerateColumns="True" Grid.Column="0" Grid.Row="0" ScrollViewer.CanContentScroll="True" 
+                              ScrollViewer.VerticalScrollBarVisibility="Auto" ScrollViewer.HorizontalScrollBarVisibility="Auto" IsReadOnly="True" Margin="0,38,24,-38">                              
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="Date" Binding="{Binding Date}"  SortDirection="Descending" CanUserResize="False" Width="100"/>
+                            <DataGridTextColumn Header="Message" Binding="{Binding Message}" Width="700"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </Grid>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</UserControl>
