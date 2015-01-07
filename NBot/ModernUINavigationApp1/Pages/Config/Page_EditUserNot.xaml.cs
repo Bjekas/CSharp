@@ -179,6 +179,7 @@ namespace NBot.Pages.Config
 
         private void BSave_Click(object sender, RoutedEventArgs e)
         {
+            bool isCNot = false;
             int i = MainWindow.Config.notyEmailList.IndexOf(eNot);
 
             MainWindow.Config.notyEmailList[i].id = 0;
@@ -189,8 +190,19 @@ namespace NBot.Pages.Config
 
             foreach (string str in LBActive.Items)
             {
-                MainWindow.Config.notyEmailList[i].NotList.Add(new Notification(str));
+                foreach(Notification not in MainWindow.Config.CustNot)
+                {
+                    if (not.name.CompareTo(str) == 0)
+                    {
+                        MainWindow.Config.notyEmailList[i].NotList.Add(not);
+                        isCNot = true;
+                        break;
+                    }
+                }
+                if (!isCNot)
+                    MainWindow.Config.notyEmailList[i].NotList.Add(new Notification(str));
 
+                isCNot = false;
             }
 
             LogInterface.WriteLog(MainWindow.Config, NBot.Pages.HomeSection.DebugP, "User " + UsernameTB.Text + " changed with email: " + EmailTB.Text);
@@ -237,7 +249,11 @@ namespace NBot.Pages.Config
                 if (!strList.Contains(plc.plcName + "Run"))
                     LBInactive.Items.Add(plc.plcName + "Run");
             }
-
+            foreach (Notification not in MainWindow.Config.CustNot)
+            {
+                if (!strList.Contains(not.name)) 
+                    LBInactive.Items.Add(not.name);
+            }
             CheckData();
         }
 

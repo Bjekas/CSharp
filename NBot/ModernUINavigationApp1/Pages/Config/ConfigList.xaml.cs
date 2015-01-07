@@ -44,7 +44,7 @@ namespace NBot.Pages.Config
                 case 1:
                     Link1.Source = new Uri("/Pages/Config/Page_PLCList.xaml", System.UriKind.Relative);
                     Link2.Source = new Uri("/Pages/Config/Page_UserNotList.xaml", System.UriKind.Relative);
-                    Link3.Source = new Uri("/Pages/Config/Page_NotAut.xaml", System.UriKind.Relative);
+                    Link3.Source = new Uri("/Pages/Config/Page_CNotList.xaml", System.UriKind.Relative);
                     Link4.Source = new Uri("/Pages/Config/Page_NotAut.xaml", System.UriKind.Relative);;
                     Link5.Source = new Uri("/Pages/Config/Page_NotAut.xaml", System.UriKind.Relative);;
                     break;
@@ -53,7 +53,7 @@ namespace NBot.Pages.Config
                 case 2:
                     Link1.Source = new Uri("/Pages/Config/Page_PLCList.xaml", System.UriKind.Relative);
                     Link2.Source = new Uri("/Pages/Config/Page_UserNotList.xaml", System.UriKind.Relative);
-                    Link3.Source = new Uri("/Pages/Config/Page_NotAut.xaml", System.UriKind.Relative);;
+                    Link3.Source = new Uri("/Pages/Config/Page_CNotList.xaml", System.UriKind.Relative);;
                     Link4.Source = new Uri("/Pages/Config/Page_DebList.xaml", System.UriKind.Relative);
                     Link5.Source = new Uri("/Pages/Config/Page_ConfigSystem.xaml", System.UriKind.Relative);
                     break;

@@ -27,7 +27,6 @@ namespace NBot.Pages.Config
 
         public void RefreshList()
         {
-
             LBPlcList.Items.Clear();
 
             foreach (PLC plc in MainWindow.Config.plcs)
@@ -98,7 +97,8 @@ namespace NBot.Pages.Config
             string plcName = MainWindow.Config.plcs[LBPlcList.SelectedIndex].plcName;
 
             LogInterface.WriteLog(MainWindow.Config, NBot.Pages.HomeSection.DebugP, "PLC " + plcName + " was deleted");
-            MainWindow.Config.plcs.RemoveAt(LBPlcList.SelectedIndex);
+            ((MainWindow)NBot.App.Current.MainWindow).plcComs.closePlcComm(plcName);
+            MainWindow.Config.plcs.RemoveAt(LBPlcList.SelectedIndex);            
 
             //Locate and delete all notification related to this plc
             foreach (EmailNotification eNot in MainWindow.Config.notyEmailList)
@@ -120,6 +120,7 @@ namespace NBot.Pages.Config
             }
 
             MainWindow.SaveConfigFile();
+            MainWindow.restartThread = true;
             RefreshList();
         }
     }

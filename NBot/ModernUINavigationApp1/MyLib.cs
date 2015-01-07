@@ -69,8 +69,8 @@ public static class WWW
     public static void sendMail(string from, string subject, string message, string to, string host, string login, string password)
     {
         
-        System.Windows.MessageBox.Show(to + ": " + message);
-        return;
+        //System.Windows.MessageBox.Show(to + ": " + message);
+        //return;
         
         try
         {

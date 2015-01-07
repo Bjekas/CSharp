@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using MahApps.Metro.Controls.Dialogs;
 
 namespace NBot.Pages.Config
 {
@@ -21,7 +22,7 @@ namespace NBot.Pages.Config
     public partial class Page_EditPLC : UserControl
     {
         private Page_PLCList origin;
-        private PLC plc;
+        private PLC plc;        
 
         public void CopyPathData(Path destination, Path original)
         {
@@ -144,6 +145,7 @@ namespace NBot.Pages.Config
 
             LogInterface.WriteLog(MainWindow.Config, NBot.Pages.HomeSection.DebugP, "PLC " + NameTB.Text + " changed");
             MainWindow.SaveConfigFile();
+            MainWindow.restartThread = true;
             origin.RefreshList();                       
         }
 

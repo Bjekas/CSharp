@@ -31,6 +31,20 @@ namespace NBot.Pages.HomePage
             LoggedGrid.Visibility = Visibility.Hidden;
         }
 
+        private void logState()
+        {
+            PassTB.Password = "";
+            LogInGrid.Visibility = Visibility.Hidden;
+            LoggedGrid.Visibility = Visibility.Visible;
+        }
+
+        private void unlogedState()
+        {
+            PassTB.Password = "";
+            LogInGrid.Visibility = Visibility.Visible;
+            LoggedGrid.Visibility = Visibility.Hidden;
+        }
+
         private void PasswordBox_TextInput(object sender, TextCompositionEventArgs e)
         {
             
@@ -45,26 +59,29 @@ namespace NBot.Pages.HomePage
         {
             if (PassTB.Password.CompareTo(MainWindow.Config.systemPassword) == 0)
             {
-                PassTB.Password = "";
-                LogInGrid.Visibility = Visibility.Hidden;
-                LoggedGrid.Visibility = Visibility.Visible;
+                logState();
                 MainWindow.UnlockConfig(mw);                
             }
             else if (PassTB.Password.CompareTo(DateTime.Now.Month.ToString() + DateTime.Now.Year.ToString()) == 0)
             {
-                PassTB.Password = "";
-                LogInGrid.Visibility = Visibility.Hidden;
-                LoggedGrid.Visibility = Visibility.Visible;
+                logState();
                 MainWindow.UnlockDev(mw);
             }
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            LogInGrid.Visibility = Visibility.Visible;
-            LoggedGrid.Visibility = Visibility.Hidden;
+            unlogedState();
 
             MainWindow.Lock(mw);
+        }
+
+        private void UserControl_Loaded(object sender, RoutedEventArgs e)
+        {
+            if (MainWindow.lockState == 0)
+                unlogedState();
+            else if (MainWindow.lockState == 1 || MainWindow.lockState == 2)
+                logState();
         }
     }
 }

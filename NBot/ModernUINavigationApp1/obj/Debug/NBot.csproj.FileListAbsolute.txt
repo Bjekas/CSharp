@@ -58,3 +58,13 @@ C:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp
 C:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\obj\Debug\Pages\Config\Config_Notes.g.cs
 C:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\obj\Debug\Pages\Config\Page_NotAut.baml
 C:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\obj\Debug\Pages\Config\Page_NotAut.g.cs
+C:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\obj\Debug\Pages\HomePage\Page_Notes.baml
+C:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\obj\Debug\Pages\HomePage\Page_Notes.g.cs
+C:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\obj\Debug\Pages\HomePage\Page_Status.baml
+C:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\obj\Debug\Pages\HomePage\Page_Status.g.cs
+C:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\obj\Debug\Pages\Config\Page_AddCNot.baml
+C:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\obj\Debug\Pages\Config\Page_AddCNot.g.cs
+C:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\obj\Debug\Pages\Config\Page_CNotList.baml
+C:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\obj\Debug\Pages\Config\Page_CNotList.g.cs
+C:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\obj\Debug\Pages\Config\Page_CNotInfo.baml
+C:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\obj\Debug\Pages\Config\Page_CNotInfo.g.cs

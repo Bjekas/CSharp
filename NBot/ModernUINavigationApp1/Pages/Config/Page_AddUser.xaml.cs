@@ -114,6 +114,10 @@ namespace NBot.Pages.Config
                 LBInactive.Items.Add(plc.plcName + "Stop");
                 LBInactive.Items.Add(plc.plcName + "Run");
             }
+
+            foreach (Notification not in MainWindow.Config.CustNot)
+                LBInactive.Items.Add(not.name);
+
             CheckData();
         }
 
@@ -198,13 +202,35 @@ namespace NBot.Pages.Config
 
         private void BSave_Click(object sender, RoutedEventArgs e)
         {
+            bool isCNot = false;
             EmailNotification eNot = new EmailNotification(0, UsernameTB.Text, EmailTB.Text);
             Notification not;
 
+
+            
+
             for (int i = 0; i < LBActive.Items.Count; i++)
             {
-                not = new Notification(LBActive.Items[i].ToString());
-                eNot.NotList.Add(not);
+                /**/
+                foreach (Notification CNot in MainWindow.Config.CustNot)
+                {
+                    if (CNot.name.CompareTo(LBActive.Items[i].ToString()) == 0)
+                    {                        
+                        eNot.NotList.Add(CNot);
+                        isCNot = true;
+                        break;
+                    }
+                }
+                if (!isCNot)
+                {
+                    not = new Notification(LBActive.Items[i].ToString());
+                    eNot.NotList.Add(not);
+                }
+
+                isCNot = false;
+                /**/
+
+                
             }
             MainWindow.Config.notyEmailList.Add(eNot);
 

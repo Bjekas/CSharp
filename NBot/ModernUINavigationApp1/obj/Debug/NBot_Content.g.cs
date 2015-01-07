@@ -9,7 +9,6 @@
 //------------------------------------------------------------------------------
 
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/icon.ico")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/lock.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("notes.txt")]
 
 

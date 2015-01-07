@@ -2880,3 +2880,357 @@ Detail: System.NullReferenceException: Object reference not set to an instance o
 05-01-2015 13:22
 Detail: System.NullReferenceException: Object reference not set to an instance of an object.
    at NBot.LogInterface.WriteLog(Configurations Config, ActLog ActLog, String str) in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\MainWindow.xaml.cs:line 304
+
+05-01-2015 18:1
+Detail: System.NullReferenceException: Object reference not set to an instance of an object.
+   at NBot.LogInterface.WriteLog(Configurations Config, ActLog ActLog, String str) in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\MainWindow.xaml.cs:line 304
+
+05-01-2015 18:1
+Detail: System.NullReferenceException: Object reference not set to an instance of an object.
+   at NBot.LogInterface.WriteLog(Configurations Config, ActLog ActLog, String str) in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\MainWindow.xaml.cs:line 304
+
+05-01-2015 18:1
+Detail: System.NullReferenceException: Object reference not set to an instance of an object.
+   at NBot.LogInterface.WriteLog(Configurations Config, ActLog ActLog, String str) in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\MainWindow.xaml.cs:line 304
+
+05-01-2015 18:1
+Detail: System.NullReferenceException: Object reference not set to an instance of an object.
+   at NBot.LogInterface.WriteLog(Configurations Config, ActLog ActLog, String str) in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\MainWindow.xaml.cs:line 304
+
+05-01-2015 18:1
+Detail: System.NullReferenceException: Object reference not set to an instance of an object.
+   at NBot.LogInterface.WriteLog(Configurations Config, ActLog ActLog, String str) in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\MainWindow.xaml.cs:line 304
+
+05-01-2015 18:1
+Detail: System.NullReferenceException: Object reference not set to an instance of an object.
+   at NBot.LogInterface.WriteLog(Configurations Config, ActLog ActLog, String str) in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\MainWindow.xaml.cs:line 304
+
+05-01-2015 18:1
+Detail: System.NullReferenceException: Object reference not set to an instance of an object.
+   at NBot.LogInterface.WriteLog(Configurations Config, ActLog ActLog, String str) in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\MainWindow.xaml.cs:line 304
+
+05-01-2015 18:1
+Detail: System.NullReferenceException: Object reference not set to an instance of an object.
+   at NBot.LogInterface.WriteLog(Configurations Config, ActLog ActLog, String str) in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\MainWindow.xaml.cs:line 304
+
+05-01-2015 18:1
+Detail: System.NullReferenceException: Object reference not set to an instance of an object.
+   at NBot.LogInterface.WriteLog(Configurations Config, ActLog ActLog, String str) in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\MainWindow.xaml.cs:line 304
+
+05-01-2015 18:1
+Detail: System.NullReferenceException: Object reference not set to an instance of an object.
+   at NBot.LogInterface.WriteLog(Configurations Config, ActLog ActLog, String str) in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\MainWindow.xaml.cs:line 304
+
+05-01-2015 18:1
+Detail: System.NullReferenceException: Object reference not set to an instance of an object.
+   at NBot.LogInterface.WriteLog(Configurations Config, ActLog ActLog, String str) in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\MainWindow.xaml.cs:line 304
+
+05-01-2015 18:2
+Detail: System.NullReferenceException: Object reference not set to an instance of an object.
+   at NBot.LogInterface.WriteLog(Configurations Config, ActLog ActLog, String str) in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\MainWindow.xaml.cs:line 304
+
+05-01-2015 18:2
+Detail: System.NullReferenceException: Object reference not set to an instance of an object.
+   at NBot.LogInterface.WriteLog(Configurations Config, ActLog ActLog, String str) in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\MainWindow.xaml.cs:line 304
+
+05-01-2015 18:2
+Detail: System.NullReferenceException: Object reference not set to an instance of an object.
+   at NBot.LogInterface.WriteLog(Configurations Config, ActLog ActLog, String str) in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\MainWindow.xaml.cs:line 304
+
+05-01-2015 18:2
+Detail: System.NullReferenceException: Object reference not set to an instance of an object.
+   at NBot.LogInterface.WriteLog(Configurations Config, ActLog ActLog, String str) in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\MainWindow.xaml.cs:line 304
+
+05-01-2015 18:3
+Detail: System.NullReferenceException: Object reference not set to an instance of an object.
+   at NBot.LogInterface.WriteLog(Configurations Config, ActLog ActLog, String str) in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\MainWindow.xaml.cs:line 304
+
+05-01-2015 18:8
+Detail: System.NullReferenceException: Object reference not set to an instance of an object.
+   at NBot.LogInterface.WriteLog(Configurations Config, ActLog ActLog, String str) in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\MainWindow.xaml.cs:line 304
+
+05-01-2015 18:11
+Detail: System.NullReferenceException: Object reference not set to an instance of an object.
+   at NBot.LogInterface.WriteLog(Configurations Config, ActLog ActLog, String str) in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\MainWindow.xaml.cs:line 304
+
+05-01-2015 18:11
+Detail: System.NullReferenceException: Object reference not set to an instance of an object.
+   at NBot.LogInterface.WriteLog(Configurations Config, ActLog ActLog, String str) in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\MainWindow.xaml.cs:line 304
+
+05-01-2015 18:17
+Detail: System.NullReferenceException: Object reference not set to an instance of an object.
+   at NBot.LogInterface.WriteLog(Configurations Config, ActLog ActLog, String str) in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\MainWindow.xaml.cs:line 304
+
+05-01-2015 18:17
+Detail: System.NullReferenceException: Object reference not set to an instance of an object.
+   at NBot.LogInterface.WriteLog(Configurations Config, ActLog ActLog, String str) in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\MainWindow.xaml.cs:line 304
+
+05-01-2015 18:17
+Detail: System.NullReferenceException: Object reference not set to an instance of an object.
+   at NBot.LogInterface.WriteLog(Configurations Config, ActLog ActLog, String str) in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\MainWindow.xaml.cs:line 304
+
+05-01-2015 18:17
+Detail: System.NullReferenceException: Object reference not set to an instance of an object.
+   at NBot.LogInterface.WriteLog(Configurations Config, ActLog ActLog, String str) in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\MainWindow.xaml.cs:line 304
+
+05-01-2015 18:17
+Detail: System.NullReferenceException: Object reference not set to an instance of an object.
+   at NBot.LogInterface.WriteLog(Configurations Config, ActLog ActLog, String str) in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\MainWindow.xaml.cs:line 304
+
+05-01-2015 18:17
+Detail: System.NullReferenceException: Object reference not set to an instance of an object.
+   at NBot.LogInterface.WriteLog(Configurations Config, ActLog ActLog, String str) in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\MainWindow.xaml.cs:line 304
+
+05-01-2015 18:17
+Detail: System.NullReferenceException: Object reference not set to an instance of an object.
+   at NBot.LogInterface.WriteLog(Configurations Config, ActLog ActLog, String str) in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\MainWindow.xaml.cs:line 304
+
+05-01-2015 18:17
+Detail: System.NullReferenceException: Object reference not set to an instance of an object.
+   at NBot.LogInterface.WriteLog(Configurations Config, ActLog ActLog, String str) in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\MainWindow.xaml.cs:line 304
+
+05-01-2015 18:17
+Detail: System.NullReferenceException: Object reference not set to an instance of an object.
+   at NBot.LogInterface.WriteLog(Configurations Config, ActLog ActLog, String str) in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\MainWindow.xaml.cs:line 304
+
+05-01-2015 18:18
+Detail: System.NullReferenceException: Object reference not set to an instance of an object.
+   at NBot.LogInterface.WriteLog(Configurations Config, ActLog ActLog, String str) in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\MainWindow.xaml.cs:line 304
+
+05-01-2015 18:18
+Detail: System.NullReferenceException: Object reference not set to an instance of an object.
+   at NBot.LogInterface.WriteLog(Configurations Config, ActLog ActLog, String str) in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\MainWindow.xaml.cs:line 304
+
+05-01-2015 18:18
+Detail: System.NullReferenceException: Object reference not set to an instance of an object.
+   at NBot.LogInterface.WriteLog(Configurations Config, ActLog ActLog, String str) in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\MainWindow.xaml.cs:line 304
+
+05-01-2015 18:18
+Detail: System.NullReferenceException: Object reference not set to an instance of an object.
+   at NBot.LogInterface.WriteLog(Configurations Config, ActLog ActLog, String str) in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\MainWindow.xaml.cs:line 304
+
+05-01-2015 18:18
+Detail: System.NullReferenceException: Object reference not set to an instance of an object.
+   at NBot.LogInterface.WriteLog(Configurations Config, ActLog ActLog, String str) in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\MainWindow.xaml.cs:line 304
+
+05-01-2015 18:18
+Detail: System.NullReferenceException: Object reference not set to an instance of an object.
+   at NBot.LogInterface.WriteLog(Configurations Config, ActLog ActLog, String str) in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\MainWindow.xaml.cs:line 304
+
+05-01-2015 18:18
+Detail: System.NullReferenceException: Object reference not set to an instance of an object.
+   at NBot.LogInterface.WriteLog(Configurations Config, ActLog ActLog, String str) in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\MainWindow.xaml.cs:line 304
+
+05-01-2015 18:18
+Detail: System.NullReferenceException: Object reference not set to an instance of an object.
+   at NBot.LogInterface.WriteLog(Configurations Config, ActLog ActLog, String str) in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\MainWindow.xaml.cs:line 304
+
+05-01-2015 18:18
+Detail: System.NullReferenceException: Object reference not set to an instance of an object.
+   at NBot.LogInterface.WriteLog(Configurations Config, ActLog ActLog, String str) in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\MainWindow.xaml.cs:line 304
+
+05-01-2015 18:19
+Detail: System.NullReferenceException: Object reference not set to an instance of an object.
+   at NBot.LogInterface.WriteLog(Configurations Config, ActLog ActLog, String str) in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\MainWindow.xaml.cs:line 304
+
+05-01-2015 18:19
+Detail: System.NullReferenceException: Object reference not set to an instance of an object.
+   at NBot.LogInterface.WriteLog(Configurations Config, ActLog ActLog, String str) in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\MainWindow.xaml.cs:line 304
+
+05-01-2015 18:19
+Detail: System.NullReferenceException: Object reference not set to an instance of an object.
+   at NBot.LogInterface.WriteLog(Configurations Config, ActLog ActLog, String str) in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\MainWindow.xaml.cs:line 304
+
+05-01-2015 18:19
+Detail: System.NullReferenceException: Object reference not set to an instance of an object.
+   at NBot.LogInterface.WriteLog(Configurations Config, ActLog ActLog, String str) in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\MainWindow.xaml.cs:line 304
+
+05-01-2015 18:19
+Detail: System.NullReferenceException: Object reference not set to an instance of an object.
+   at NBot.LogInterface.WriteLog(Configurations Config, ActLog ActLog, String str) in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\MainWindow.xaml.cs:line 304
+
+05-01-2015 18:19
+Detail: System.NullReferenceException: Object reference not set to an instance of an object.
+   at NBot.LogInterface.WriteLog(Configurations Config, ActLog ActLog, String str) in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\MainWindow.xaml.cs:line 304
+
+05-01-2015 18:19
+Detail: System.NullReferenceException: Object reference not set to an instance of an object.
+   at NBot.LogInterface.WriteLog(Configurations Config, ActLog ActLog, String str) in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\MainWindow.xaml.cs:line 304
+
+05-01-2015 18:19
+Detail: System.NullReferenceException: Object reference not set to an instance of an object.
+   at NBot.LogInterface.WriteLog(Configurations Config, ActLog ActLog, String str) in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\MainWindow.xaml.cs:line 304
+
+05-01-2015 18:19
+Detail: System.NullReferenceException: Object reference not set to an instance of an object.
+   at NBot.LogInterface.WriteLog(Configurations Config, ActLog ActLog, String str) in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\MainWindow.xaml.cs:line 304
+
+05-01-2015 18:19
+Detail: System.NullReferenceException: Object reference not set to an instance of an object.
+   at NBot.LogInterface.WriteLog(Configurations Config, ActLog ActLog, String str) in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\MainWindow.xaml.cs:line 304
+
+05-01-2015 18:20
+Detail: System.NullReferenceException: Object reference not set to an instance of an object.
+   at NBot.LogInterface.WriteLog(Configurations Config, ActLog ActLog, String str) in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\MainWindow.xaml.cs:line 304
+
+05-01-2015 18:20
+Detail: System.NullReferenceException: Object reference not set to an instance of an object.
+   at NBot.LogInterface.WriteLog(Configurations Config, ActLog ActLog, String str) in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\MainWindow.xaml.cs:line 304
+
+05-01-2015 18:20
+Detail: System.NullReferenceException: Object reference not set to an instance of an object.
+   at NBot.LogInterface.WriteLog(Configurations Config, ActLog ActLog, String str) in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\MainWindow.xaml.cs:line 304
+
+05-01-2015 18:20
+Detail: System.NullReferenceException: Object reference not set to an instance of an object.
+   at NBot.LogInterface.WriteLog(Configurations Config, ActLog ActLog, String str) in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\MainWindow.xaml.cs:line 304
+
+05-01-2015 18:20
+Detail: System.NullReferenceException: Object reference not set to an instance of an object.
+   at NBot.LogInterface.WriteLog(Configurations Config, ActLog ActLog, String str) in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\MainWindow.xaml.cs:line 304
+
+05-01-2015 18:21
+Detail: System.NullReferenceException: Object reference not set to an instance of an object.
+   at NBot.LogInterface.WriteLog(Configurations Config, ActLog ActLog, String str) in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\MainWindow.xaml.cs:line 304
+
+05-01-2015 18:36
+Detail: System.Threading.ThreadAbortException: Thread was being aborted.
+   at WWW.pingTarget(String hostName, Int32 timeOutTime) in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\MyLib.cs:line 146
+   at NBot.PLC.Ping() in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\MainWindow.xaml.cs:line 102
+   at NBot.MainWindow.GuardThreadV2() in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\MainWindow.xaml.cs:line 847
+
+05-01-2015 19:16
+Detail: System.Threading.ThreadAbortException: Thread was being aborted.
+   at WWW.pingTarget(String hostName, Int32 timeOutTime) in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\MyLib.cs:line 146
+   at NBot.PLC.Ping() in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\MainWindow.xaml.cs:line 102
+   at NBot.MainWindow.GuardThreadV2() in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\MainWindow.xaml.cs:line 847
+
+05-01-2015 19:25
+Detail: System.Threading.ThreadAbortException: Thread was being aborted.
+   at WWW.pingTarget(String hostName, Int32 timeOutTime) in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\MyLib.cs:line 146
+   at NBot.PLC.Ping() in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\MainWindow.xaml.cs:line 102
+   at NBot.MainWindow.GuardThreadV2() in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\MainWindow.xaml.cs:line 847
+
+06-01-2015 10:12
+Detail: System.InvalidOperationException: Cannot read keys when either application does not have a console or when console input has been redirected from a file. Try Console.Read.
+   at System.Console.ReadKey(Boolean intercept)
+   at System.Console.ReadKey()
+   at LNDConnection.connectionInit() in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\PLCManager\LNDConnection.cs:line 90
+   at PlcManager.initPlcComm(String plcName) in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\PLCManager\PlcManager.cs:line 101
+   at NBot.MainWindow.GuardThreadV2() in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\MainWindow.xaml.cs:line 855
+
+06-01-2015 10:12
+Detail: System.InvalidOperationException: Cannot read keys when either application does not have a console or when console input has been redirected from a file. Try Console.Read.
+   at System.Console.ReadKey(Boolean intercept)
+   at System.Console.ReadKey()
+   at LNDConnection.connectionInit() in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\PLCManager\LNDConnection.cs:line 90
+   at PlcManager.initPlcComm(String plcName) in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\PLCManager\PlcManager.cs:line 101
+   at NBot.MainWindow.GuardThreadV2() in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\MainWindow.xaml.cs:line 855
+
+06-01-2015 10:12
+Detail: System.InvalidOperationException: Cannot read keys when either application does not have a console or when console input has been redirected from a file. Try Console.Read.
+   at System.Console.ReadKey(Boolean intercept)
+   at System.Console.ReadKey()
+   at LNDConnection.connectionInit() in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\PLCManager\LNDConnection.cs:line 90
+   at PlcManager.initPlcComm(String plcName) in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\PLCManager\PlcManager.cs:line 101
+   at NBot.MainWindow.GuardThreadV2() in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\MainWindow.xaml.cs:line 855
+
+06-01-2015 10:16
+Detail: System.InvalidOperationException: Cannot read keys when either application does not have a console or when console input has been redirected from a file. Try Console.Read.
+   at System.Console.ReadKey(Boolean intercept)
+   at System.Console.ReadKey()
+   at LNDConnection.connectionInit() in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\PLCManager\LNDConnection.cs:line 90
+   at PlcManager.initPlcComm(String plcName) in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\PLCManager\PlcManager.cs:line 101
+   at NBot.MainWindow.GuardThreadV2() in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\MainWindow.xaml.cs:line 855
+
+06-01-2015 10:16
+Detail: System.InvalidOperationException: Cannot read keys when either application does not have a console or when console input has been redirected from a file. Try Console.Read.
+   at System.Console.ReadKey(Boolean intercept)
+   at System.Console.ReadKey()
+   at LNDConnection.connectionInit() in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\PLCManager\LNDConnection.cs:line 90
+   at PlcManager.initPlcComm(String plcName) in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\PLCManager\PlcManager.cs:line 101
+   at NBot.MainWindow.GuardThreadV2() in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\MainWindow.xaml.cs:line 855
+
+06-01-2015 10:16
+Detail: System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.SleepInternal(Int32 millisecondsTimeout)
+   at System.Threading.Thread.Sleep(Int32 millisecondsTimeout)
+   at NBot.MainWindow.GuardThreadV2() in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\MainWindow.xaml.cs:line 914
+
+06-01-2015 10:25
+Detail: System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.SleepInternal(Int32 millisecondsTimeout)
+   at System.Threading.Thread.Sleep(Int32 millisecondsTimeout)
+   at NBot.MainWindow.GuardThreadV2() in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\MainWindow.xaml.cs:line 914
+
+06-01-2015 11:22
+Detail: System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.SleepInternal(Int32 millisecondsTimeout)
+   at System.Threading.Thread.Sleep(Int32 millisecondsTimeout)
+   at NBot.MainWindow.GuardThreadV2() in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\MainWindow.xaml.cs:line 935
+
+06-01-2015 12:49
+Detail: System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.SleepInternal(Int32 millisecondsTimeout)
+   at System.Threading.Thread.Sleep(Int32 millisecondsTimeout)
+   at NBot.MainWindow.GuardThreadV2() in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\MainWindow.xaml.cs:line 916
+
+06-01-2015 12:55
+Detail: System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.SleepInternal(Int32 millisecondsTimeout)
+   at System.Threading.Thread.Sleep(Int32 millisecondsTimeout)
+   at NBot.MainWindow.GuardThreadV2() in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\MainWindow.xaml.cs:line 916
+
+06-01-2015 13:17
+Detail: System.NullReferenceException: Object reference not set to an instance of an object.
+   at PlcManager.readBitOnTag(String plcName, Int32 dbNumber, Int32 byteNumber, Int32 bitNumber) in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\PLCManager\PlcManager.cs:line 207
+   at NBot.MainWindow.GuardThreadV2() in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\MainWindow.xaml.cs:line 928
+
+06-01-2015 13:17
+Detail: System.NullReferenceException: Object reference not set to an instance of an object.
+   at PlcManager.readBitOnTag(String plcName, Int32 dbNumber, Int32 byteNumber, Int32 bitNumber) in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\PLCManager\PlcManager.cs:line 207
+   at NBot.MainWindow.GuardThreadV2() in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\MainWindow.xaml.cs:line 928
+
+06-01-2015 13:18
+Detail: System.NullReferenceException: Object reference not set to an instance of an object.
+   at PlcManager.readBitOnTag(String plcName, Int32 dbNumber, Int32 byteNumber, Int32 bitNumber) in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\PLCManager\PlcManager.cs:line 207
+   at NBot.MainWindow.GuardThreadV2() in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\MainWindow.xaml.cs:line 928
+
+06-01-2015 13:25
+Detail: System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.SleepInternal(Int32 millisecondsTimeout)
+   at System.Threading.Thread.Sleep(Int32 millisecondsTimeout)
+   at NBot.MainWindow.GuardThreadV2() in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\MainWindow.xaml.cs:line 932
+
+06-01-2015 13:26
+Detail: System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.SleepInternal(Int32 millisecondsTimeout)
+   at System.Threading.Thread.Sleep(Int32 millisecondsTimeout)
+   at NBot.MainWindow.GuardThreadV2() in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\MainWindow.xaml.cs:line 932
+
+06-01-2015 13:26
+Detail: System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.SleepInternal(Int32 millisecondsTimeout)
+   at System.Threading.Thread.Sleep(Int32 millisecondsTimeout)
+   at NBot.MainWindow.GuardThreadV2() in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\MainWindow.xaml.cs:line 932
+
+06-01-2015 14:5
+Detail: System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.SleepInternal(Int32 millisecondsTimeout)
+   at System.Threading.Thread.Sleep(Int32 millisecondsTimeout)
+   at NBot.MainWindow.GuardThreadV2() in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\MainWindow.xaml.cs:line 932
+
+06-01-2015 14:34
+Detail: System.InvalidOperationException: Cannot read keys when either application does not have a console or when console input has been redirected from a file. Try Console.Read.
+   at System.Console.ReadKey(Boolean intercept)
+   at System.Console.ReadKey()
+   at LNDConnection.connectionInit() in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\PLCManager\LNDConnection.cs:line 90
+   at PlcManager.initPlcComm(String plcName) in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\PLCManager\PlcManager.cs:line 101
+   at NBot.MainWindow.GuardThreadV2() in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\MainWindow.xaml.cs:line 851
+
+06-01-2015 14:36
+Detail: System.InvalidOperationException: Collection was modified; enumeration operation may not execute.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Collections.Generic.List`1.Enumerator.MoveNextRare()
+   at System.Collections.Generic.List`1.Enumerator.MoveNext()
+   at NBot.MainWindow.GuardThreadV2() in c:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\MainWindow.xaml.cs:line 840

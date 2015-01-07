@@ -1,0 +1,36 @@
+﻿<UserControl x:Class="NBot.Pages.Config.Page_CNotInfo"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:mui="http://firstfloorsoftware.com/ModernUI"
+             mc:Ignorable="d" 
+             d:DesignHeight="433" d:DesignWidth="800" Loaded="Page_Loaded">
+    <Grid Style="{StaticResource ContentRoot}">
+        <ScrollViewer>
+            <StackPanel MinWidth="200">
+                <Grid Height="387">
+                    <TextBlock Text="Custom notification information" Style="{StaticResource Heading2}" Foreground="OrangeRed" Margin="10,10,-10,390"/>
+                    <TextBlock x:Name="NameL" Text="Name" Foreground="Orange" Margin="10,34,0,0" HorizontalAlignment="Left" Width="106" Height="22" VerticalAlignment="Top"/>
+                    <TextBlock x:Name="NameTB" Foreground="White" Margin="121,34,0,0" Height="22" VerticalAlignment="Top" HorizontalAlignment="Left" Width="190"/>
+
+                    <TextBlock x:Name="PLCL" Text="PLC" Foreground="Orange" Margin="10,61,0,0" HorizontalAlignment="Left" Width="106" Height="22" VerticalAlignment="Top"/>
+                    <TextBlock x:Name="PLCTB" Foreground="White" Margin="121,61,0,0" Height="22" VerticalAlignment="Top" HorizontalAlignment="Left" Width="190"/>
+
+                    <TextBlock Text="Trigger config" Style="{StaticResource Heading2}" Foreground="OrangeRed" Margin="10,133,-10,267"/>
+                    <TextBlock x:Name="DBNumbL" Text="DB" Foreground="Orange" Margin="10,171,0,0" HorizontalAlignment="Left" Width="106" Height="22" VerticalAlignment="Top"/>
+                    <TextBlock x:Name="DBTB" Foreground="White" Margin="121,171,0,0" Height="22" VerticalAlignment="Top" HorizontalAlignment="Left" Width="157"/>
+
+                    <TextBlock x:Name="BWL" Text="Byte" Foreground="Orange" Margin="10,198,0,0" HorizontalAlignment="Left" Width="106" Height="22" VerticalAlignment="Top"/>
+                    <TextBlock x:Name="BWTB" Foreground="White" Margin="121,198,0,0" Height="22" VerticalAlignment="Top" HorizontalAlignment="Left" Width="157"/>
+
+                    <TextBlock x:Name="BitL" Text="Bit" Foreground="Orange" Margin="10,225,0,0" HorizontalAlignment="Left" Width="106" Height="22" VerticalAlignment="Top"/>
+                    <TextBlock x:Name="BitTB" Foreground="White" Margin="121,225,0,0" Height="22" VerticalAlignment="Top" HorizontalAlignment="Left" Width="157"/>
+
+                    <TextBlock x:Name="BalueL" Text="Trig. Value" Foreground="Orange" Margin="10,252,0,0" HorizontalAlignment="Left" Width="106" Height="22" VerticalAlignment="Top"/>
+                    <TextBlock x:Name="ValueTB" Foreground="White" Margin="121,252,0,0" Height="22" VerticalAlignment="Top" HorizontalAlignment="Left" Width="157"/>                    
+                </Grid>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</UserControl>

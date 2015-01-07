@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Collections;
 using System.Globalization;
 
-class PlcManager
+public class PlcManager
 {
     #region global_objects
     //Objects

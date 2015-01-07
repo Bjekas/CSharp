@@ -1,0 +1,62 @@
+﻿<UserControl x:Class="NBot.Pages.Config.Page_AddCNot"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:mui="http://firstfloorsoftware.com/ModernUI"
+             xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+             mc:Ignorable="d" 
+             d:DesignHeight="433" d:DesignWidth="800" Loaded="UserControl_Loaded">
+    <Grid Style="{StaticResource ContentRoot}">
+        <Path x:Name="nok_icon" Width="23" Height="23" Stretch="Fill" Fill="Red" Data="F1 M 38,22.1667C 41.1666,22.1667 57,52.25 55.4166,53.8333C 53.8333,55.4167 22.1667,55.4167 20.5833,53.8333C 19,52.25 34.8333,22.1667 38,22.1667 Z M 38,45.9167C 36.6883,45.9167 35.625,46.98 35.625,48.2917C 35.625,49.6034 36.6883,50.6667 38,50.6667C 39.3116,50.6667 40.375,49.6034 40.375,48.2917C 40.375,46.98 39.3116,45.9167 38,45.9167 Z M 35.625,31.6667L 36.4166,44.3333L 39.5833,44.3333L 40.375,31.6667L 35.625,31.6667 Z " Visibility="Hidden"/>
+        <Path x:Name="ok_icon" Width="23" Height="23" Stretch="Fill" Fill="GreenYellow" Data="F1 M 23.7501,33.25L 34.8334,44.3333L 52.2499,22.1668L 56.9999,26.9168L 34.8334,53.8333L 19.0001,38L 23.7501,33.25 Z " Visibility="Hidden"/>
+        <ScrollViewer>
+            <StackPanel MinWidth="200">
+                <TextBlock Text="Add trigger notification" Style="{StaticResource Heading2}" Foreground="OrangeRed"/>
+                <Grid Height="349">
+                    <TextBlock x:Name="NameL" Text="Name" Foreground="Orange" Margin="10,14,0,0" HorizontalAlignment="Left" Width="106" Height="22" VerticalAlignment="Top"/>
+                    <TextBox x:Name="NameTB" Margin="88,14,0,0" Height="22" VerticalAlignment="Top" HorizontalAlignment="Left" Width="190" TextChanged="NameTB_TextChanged"/>
+                    <Canvas HorizontalAlignment="Left" Height="23" Margin="283,14,0,0" VerticalAlignment="Top" Width="23">
+                        <Path x:Name="INameCheck" Width="23" Height="23" Stretch="Fill"/>
+                    </Canvas>
+                    <TextBlock x:Name="PLCNameTB" Text="PLC Name" Foreground="Orange" Margin="10,45,0,0" HorizontalAlignment="Left" Width="106" Height="22" VerticalAlignment="Top"/>
+                    <ComboBox x:Name="PLCNameCB" Height="26" VerticalAlignment="Top" Margin="88,41,0,0" HorizontalAlignment="Left" Width="190" SelectionChanged="PLCNameCB_SelectionChanged" />
+                    <Canvas HorizontalAlignment="Left" Height="23" Margin="283,42,0,0" VerticalAlignment="Top" Width="23">
+                        <Path x:Name="PLCNameCheck" Width="23" Height="23" Stretch="Fill"/>
+                    </Canvas>
+
+                    <TextBlock Text="Trigger Type" Foreground="Orange" Margin="10,97,0,0" HorizontalAlignment="Left" Width="106" Height="22" VerticalAlignment="Top"/>
+                    <ComboBox x:Name="VarTypeCB" Height="26" VerticalAlignment="Top" Margin="98,93,0,0" HorizontalAlignment="Left" Width="122" SelectionChanged="VarTypeCB_SelectionChanged">
+                        <ComboBoxItem IsSelected="True">Boolean</ComboBoxItem>
+                        <ComboBoxItem >Analogic</ComboBoxItem>
+                    </ComboBox>
+                    <Canvas HorizontalAlignment="Left" Height="23" Margin="225,96,0,0" VerticalAlignment="Top" Width="23">
+                        <Path x:Name="TrigTypeCheck" Width="23" Height="23" Stretch="Fill"/>
+                    </Canvas>
+                    <TextBlock Text="DB" Foreground="Orange" Margin="5,124,0,0" HorizontalAlignment="Left" Width="32" Height="22" VerticalAlignment="Top"/>
+                    <TextBox x:Name="DBNumberTB" Margin="74,124,0,0" Height="22" VerticalAlignment="Top" HorizontalAlignment="Left" Width="40" TextChanged="DBNumberTB_TextChanged"/>
+                    <Canvas HorizontalAlignment="Left" Height="23" Margin="119,127,0,0" VerticalAlignment="Top" Width="23">
+                        <Path x:Name="DBNCheck" Width="23" Height="23" Stretch="Fill"/>
+                    </Canvas>
+                    <TextBlock x:Name="BWL" Text="Byte" Foreground="Orange" Margin="5,151,0,0" HorizontalAlignment="Left" Width="32" Height="22" VerticalAlignment="Top"/>
+                    <TextBox x:Name="BWNumberTB" Margin="74,151,0,0" Height="22" VerticalAlignment="Top" HorizontalAlignment="Left" Width="40" TextChanged="BWNumberTB_TextChanged"/>
+                    <Canvas HorizontalAlignment="Left" Height="23" Margin="119,150,0,0" VerticalAlignment="Top" Width="23">
+                        <Path x:Name="BWNCheck" Width="23" Height="23" Stretch="Fill"/>
+                    </Canvas>
+                    <TextBlock x:Name="BitNumberL" Text="Bit" Foreground="Orange" Margin="5,178,0,0" HorizontalAlignment="Left" Width="32" Height="22" VerticalAlignment="Top"/>
+                    <TextBox x:Name="BitNumberTB" Margin="74,178,0,0" Height="22" VerticalAlignment="Top" HorizontalAlignment="Left" Width="40" TextChanged="BitNumberTB_TextChanged"/>
+                    <Canvas HorizontalAlignment="Left" Height="23" Margin="119,177,0,0" VerticalAlignment="Top" Width="23">
+                        <Path x:Name="BitNCheck" Width="23" Height="23" Stretch="Fill"/>
+                    </Canvas>
+                    <TextBlock x:Name="ValueL" Text="Trig. Value" Foreground="Orange" Margin="5,205,0,0" HorizontalAlignment="Left" Width="64" Height="22" VerticalAlignment="Top"/>
+                    <TextBox x:Name="ValueTB" Margin="74,205,0,0" Height="22" VerticalAlignment="Top" HorizontalAlignment="Left" Width="40" TextChanged="ValueTB_TextChanged"/>
+                    <Canvas HorizontalAlignment="Left" Height="23" Margin="119,205,0,0" VerticalAlignment="Top" Width="23">
+                        <Path x:Name="ValueCheck" Width="23" Height="23" Stretch="Fill"/>
+                    </Canvas>
+                    <Button x:Name ="BCancel" Content="Cancel" Style="{DynamicResource SquareButtonStyle}" Margin="203,309,0,0" HorizontalAlignment="Left" Width="75" Height="30" VerticalAlignment="Top" Click="BCancel_Click"/>
+                    <Button x:Name ="BAdd" Content="Add" Style="{DynamicResource SquareButtonStyle}" Margin="10,309,0,0" HorizontalAlignment="Left" Width="75" Height="30" VerticalAlignment="Top" Click="BAdd_Click"/>
+                </Grid>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</UserControl>

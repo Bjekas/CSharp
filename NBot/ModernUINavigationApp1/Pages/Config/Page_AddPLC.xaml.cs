@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Net;
+using System.Threading;
 
 namespace NBot.Pages.Config
 {
@@ -205,6 +206,8 @@ namespace NBot.Pages.Config
             DBNTB.Text = "";
             ByteNTB.Text = "";
             BitNTB.Text = "";
+
+            MainWindow.restartThread = true;
 
             origin.RefreshList();
         }

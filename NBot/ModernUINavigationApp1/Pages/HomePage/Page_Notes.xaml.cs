@@ -11,31 +11,27 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
+using System.Windows.Shapes;
+using System.IO;
 
-namespace NBot.Pages
+namespace NBot.Pages.HomePage
 {
-    
-
     /// <summary>
-    /// Interaction logic for Home.xaml
+    /// Interaction logic for Page_Notes.xaml
     /// </summary>
-    public partial class HomeSection : UserControl
+    public partial class Page_Notes : UserControl
     {
-        
-        public static HomePage.ActLog DebugP;
-
-        public HomeSection()
+        public Page_Notes()
         {
             InitializeComponent();
-                        
-            Frame.Navigate(DebugP);                        
         }
-
-        
 
         private void UserControl_Loaded(object sender, RoutedEventArgs e)
         {
-           
+            if (File.Exists("Notes.txt"))
+            {
+                ContentTB.Text = File.ReadAllText("Notes.txt");
+            }
         }
     }
 }

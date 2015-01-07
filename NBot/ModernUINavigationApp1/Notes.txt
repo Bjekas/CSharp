@@ -1,13 +1,14 @@
 ﻿to do:
-- lista de plcs com visualização de estado na pagina de debug
-- Resolver problema com registar primeiros logs no ActivityLog window
+- Cor da janela consoante estados (verificar condiçoes)
+- quando se adiciona novo plc a ligação não é estabelecida. Necessário reiniciar aplicação
+- BUG: quando não se estabelece ligação com plc (libnodave) dá erro. Deveria-se desligar ligação após erro
+- Refresh no status windows automatico
 - testar com 2 plc's
 - exportar ficheiro de config num ficheiro externo sem estar encriptado (sem passwords)
 - importar ficheiro de config de um ficheiro externo sem passwords
-- Carregar notas de um ficheiro pre defenido (update notes)
+- Config log in timeout time
 
 ideas:
-- wait for flag to allow thread abort. Waits 1m for flag... if no response force close.
 - Enables das notificações
 - Comandos por email (enable/disable, )
 - if error on loading config file create a new one

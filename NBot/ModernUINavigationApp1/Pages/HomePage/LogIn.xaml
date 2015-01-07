@@ -6,17 +6,17 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:mui="http://firstfloorsoftware.com/ModernUI"
              mc:Ignorable="d" 
-             d:DesignHeight="300" d:DesignWidth="300">
+             d:DesignHeight="300" d:DesignWidth="300" Loaded="UserControl_Loaded">
     <Grid Style="{StaticResource ContentRoot}">
         <ScrollViewer>
             <StackPanel MinWidth="200">
                 <TextBlock Text="Log in" Style="{StaticResource Heading1}" Foreground="White"/>
-                
-                <Grid x:Name="LogInGrid">                    
+
+                <Grid x:Name="LogInGrid">
                     <TextBlock Text="Insert password" Style="{StaticResource Heading2}" Foreground="Orange"/>
-                    <PasswordBox x:Name="PassTB" Controls:ControlsHelper.ButtonWidth="100" Margin="0,26,142,-26" TextInput="PasswordBox_TextInput" DataContextChanged="PassTB_DataContextChanged" PasswordChanged="PassTB_PasswordChanged"/>
+                    <PasswordBox x:Name="PassTB" Controls:ControlsHelper.ButtonWidth="100" Margin="0,26,0,-26" TextInput="PasswordBox_TextInput" DataContextChanged="PassTB_DataContextChanged" PasswordChanged="PassTB_PasswordChanged" HorizontalAlignment="Left" Width="126"/>
                 </Grid>
-                
+
                 <Grid x:Name="LoggedGrid" Visibility="Hidden">
                     <TextBlock Text="You are logged" Style="{StaticResource Heading2}" Foreground="Orange" Margin="0,10,0,-10"/>
                     <Button Content="Lock" Click="Button_Click" Height="26" VerticalAlignment="Bottom" Margin="0,0,0,-41" HorizontalAlignment="Left" Width="130"/>

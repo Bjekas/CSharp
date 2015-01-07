@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\Bjekas\Documents\Visual Studio 2013\Projects\NBot\ModernUINavigationApp1\App.xaml
-22-797092048
-31874475828
-33-1750776193
+27-821166480
+2-832766377
+38-1621921424
 19-1881807443
-MainWindow.xaml;Pages\Config\ConfigList.xaml;Pages\Config\Config_Notes.xaml;Pages\Config\Page_AddDebugger.xaml;Pages\Config\Page_AddPLC.xaml;Pages\Config\Page_AddUser.xaml;Pages\Config\Page_ConfigSystem.xaml;Pages\Config\Page_DebList.xaml;Pages\Config\Page_EditDebugger.xaml;Pages\Config\Page_EditPLC.xaml;Pages\Config\Page_EditUserNot.xaml;Pages\Config\Page_NotAut.xaml;Pages\Config\Page_PLCInfo.xaml;Pages\Config\Page_PLCList.xaml;Pages\Config\Page_UserNotInfo.xaml;Pages\Config\Page_UserNotList.xaml;Pages\HomePage\ActLog.xaml;Pages\HomePage\LogIn.xaml;Pages\Settings\About.xaml;Pages\Settings\Appearance.xaml;Pages\Home.xaml;Pages\SettingsPage.xaml;
+MainWindow.xaml;Pages\Config\ConfigList.xaml;Pages\Config\Config_Notes.xaml;Pages\Config\Page_AddCNot.xaml;Pages\Config\Page_AddDebugger.xaml;Pages\Config\Page_AddPLC.xaml;Pages\Config\Page_AddUser.xaml;Pages\Config\Page_CNotInfo.xaml;Pages\Config\Page_CNotList.xaml;Pages\Config\Page_ConfigSystem.xaml;Pages\Config\Page_DebList.xaml;Pages\Config\Page_EditDebugger.xaml;Pages\Config\Page_EditPLC.xaml;Pages\Config\Page_EditUserNot.xaml;Pages\Config\Page_NotAut.xaml;Pages\Config\Page_PLCInfo.xaml;Pages\Config\Page_PLCList.xaml;Pages\Config\Page_UserNotInfo.xaml;Pages\Config\Page_UserNotList.xaml;Pages\HomePage\ActLog.xaml;Pages\HomePage\LogIn.xaml;Pages\HomePage\Page_Notes.xaml;Pages\HomePage\Page_Status.xaml;Pages\Settings\About.xaml;Pages\Settings\Appearance.xaml;Pages\Home.xaml;Pages\SettingsPage.xaml;
 
 False
 

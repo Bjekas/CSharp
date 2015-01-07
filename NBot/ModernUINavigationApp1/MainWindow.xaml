@@ -11,12 +11,12 @@
             <mui:LinkGroup.Links>
                 <mui:Link DisplayName="Log In" Source="/Pages/HomePage/LogIn.xaml" />
                 <mui:Link DisplayName="Activity Log" Source="/Pages/Home.xaml" />
-                <mui:Link DisplayName="Notes" Source="/Pages/HomePage/LogIn.xaml" />
+                <mui:Link DisplayName="Notes" Source="/Pages/HomePage/Page_Notes.xaml" />
             </mui:LinkGroup.Links>
         </mui:LinkGroup>
         <mui:LinkGroup DisplayName="System">
             <mui:LinkGroup.Links>
-                <mui:Link DisplayName="Status" Source="/Pages/Config/ConfigList.xaml" />
+                <mui:Link DisplayName="Status" Source="/Pages/HomePage/Page_Status.xaml" />
                 <mui:Link DisplayName="Configurations" Source="/Pages/Config/ConfigList.xaml" />
             </mui:LinkGroup.Links>
         </mui:LinkGroup>
@@ -28,7 +28,7 @@
     </mui:ModernWindow.MenuLinkGroups>
     
     <mui:ModernWindow.TitleLinks>        
-        <mui:Link DisplayName="settings" Source="/Pages/SettingsPage.xaml" />
+        <!--<mui:Link DisplayName="settings" Source="/Pages/SettingsPage.xaml" />-->
         <mui:Link DisplayName="help" Source="http://www.siemens.com" />
     </mui:ModernWindow.TitleLinks>
 </mui:ModernWindow>

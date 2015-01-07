@@ -141,6 +141,8 @@ namespace NBot
     {
         [DataMember(Name = "Name", EmitDefaultValue = false)]
         public string name;
+        [DataMember(Name = "PLC name", EmitDefaultValue = false)]
+        public string plcName;
         [DataMember(Name = "DB number", EmitDefaultValue = false)]
         public int dbNumber;
         [DataMember(Name = "Byte number", EmitDefaultValue = false)]
@@ -167,11 +169,11 @@ namespace NBot
             isTrigger = false;
         }
 
-        public Notification(string name, string dbAddress, int triggerValue) //Trigger notification
+        public Notification(string name, string plcName, string dbAddress, int triggerValue) //Trigger notification
         {
             string[] strArray;
             this.name = name;
-
+            this.plcName = plcName;
             strArray = dbAddress.Split('.');
 
             if (strArray.Length == 2)
@@ -234,6 +236,8 @@ namespace NBot
         public List<EmailNotification> debugEmailList = new List<EmailNotification>();
         [DataMember(Name = "Email notification list", EmitDefaultValue = false)]
         public List<EmailNotification> notyEmailList = new List<EmailNotification>();
+        [DataMember(Name = "Custom notifications list", EmitDefaultValue = false)]
+        public List<Notification> CustNot = new List<Notification>();
 
         [DataMember(Name = "Application with dark theme", EmitDefaultValue = false)]
         public bool isDarkTheme;
@@ -391,8 +395,11 @@ namespace NBot
         
         public static Configurations Config = new Configurations();
         private Thread thread;
-        private PlcManager plcComs;
+        public PlcManager plcComs;
+        public static object PageStatusObj;
         private System.Windows.Forms.NotifyIcon trayIcon;        
+        public static bool shutdownThread = false;
+        public static bool restartThread = false;
         public static bool mailServerAlive { set { LogInterface.mailServerAlive = value; } get { return LogInterface.mailServerAlive; } }
         public static int lockState = 0; //0 - Locked / 1 - User Mode / 2 - Dev mode
         private static DateTime lastLogin;
@@ -423,19 +430,25 @@ namespace NBot
         public static void RefreshIcon(MainWindow mw)
         {
             bool allPLCAlive = true;
+            bool allPLCRunning = true;
 
             if (lockState == 0)
             {
                 foreach (PLC plc in Config.plcs)
                 {
-                    if (plc.isDead) allPLCAlive = false;
-                    break;
+                    if (plc.isDead) { allPLCAlive = false; break; }
+                    if (!plc.isRun && plc.isStop) allPLCRunning = false;                    
                 }
 
-                if (mailServerAlive && allPLCAlive)
+                if (mailServerAlive && allPLCAlive && allPLCRunning)
                 {
                     mw.LogoData = Geometry.Parse(mw.connectedIconData);
                     AppearanceManager.Current.AccentColor = Colors.DarkGreen;
+                }
+                else if (mailServerAlive && allPLCAlive && !allPLCRunning)
+                {
+                    mw.LogoData = Geometry.Parse(mw.connectedIconData);
+                    AppearanceManager.Current.AccentColor = Colors.DarkOrange;
                 }
                 else
                 {
@@ -459,11 +472,21 @@ namespace NBot
         {
             if (lastLogin != new DateTime())
             {
-                if (DateTime.Now > lastLogin.AddMinutes(1.0))
+                if (DateTime.Now > lastLogin.AddMinutes(30.0))
                 {
                     Lock(mw);
                 }
             }
+        }
+
+        public bool isThreadAlive()
+        {
+            return thread.IsAlive;
+        }
+
+        public void runThread()
+        {            
+            thread.Start();
         }
 
         public void ShutDown()
@@ -533,17 +556,11 @@ namespace NBot
             AppearanceManager.Current.AccentColor = color;
         }
 
-        public static void navGotoPage(string pagePath)
-        {            
-            NavigationCommands.GoToPage.Execute(pagePath, null);
+        public MainWindow clone()
+        {
+            return this;
         }
 
-        public static void navGoBack()
-        {
-            var f = NavigationHelper.FindFrame(null, NBot.App.Current.MainWindow);
-            NavigationCommands.BrowseBack.Execute(null, f);
-        }
-        
         public MainWindow()
         {
             
@@ -641,8 +658,8 @@ namespace NBot
             */
             #endregion
 
-            //LogInterface.WriteLog(Config, DataLog, "Loading configuration file");            
-            //NBot.Pages.HomeSection.DebugP.writeLog("Loading configuration file");
+            NBot.Pages.HomeSection.DebugP = new Pages.HomePage.ActLog();
+            NBot.Pages.HomeSection.DebugP.writeLog("Loading configuration file");
             try
             {
                 Config = JsonHelper.JsonDeserialize<Configurations>(Cypher.Decrypt(File.ReadAllText("config.dat"), "Magic4all"));
@@ -650,14 +667,16 @@ namespace NBot
 
                 foreach (PLC plc in Config.plcs) plc.initDone = false;
 
+                if (Config.CustNot == null)
+                    Config.CustNot = new List<Notification>();
+
                 MainWindow.changeAppBackgroud(Config.isDarkTheme, Config.color);
 
             }
             catch (Exception ex)
             {
-                debugLog(ex);
-                //LogInterface.WriteLog(Config, DataLog, "Failed at loading config file. Aborting application");
-                //NBot.Pages.HomeSection.DebugP.writeLog("Failed at loading config file. Aborting application");
+                debugLog(ex);               
+                NBot.Pages.HomeSection.DebugP.writeLog("Failed at loading config file. Aborting application");
                 ShutDown();
             }
             LogInterface.WriteLog(Config, NBot.Pages.HomeSection.DebugP, "Starting thread");
@@ -688,6 +707,7 @@ namespace NBot
                 }
             }
             catch (Exception ex) { debugLog(ex); }
+
         }
 
         private void debugLog(Exception ex)
@@ -773,6 +793,21 @@ namespace NBot
 
         }
 
+        private void statusRefreshInterface()
+        {
+            Dispatcher.Invoke(new Action(() =>
+            {
+                statusRefresh();
+            }));
+
+        }
+
+        private void statusRefresh()
+        {
+            if (PageStatusObj != null)
+                ((Pages.HomePage.Page_Status)PageStatusObj).refreshData();
+        }
+
         private void GuardThreadV2()
         {
             WWW.PingStatus mailServePingStatus = new WWW.PingStatus();
@@ -781,6 +816,7 @@ namespace NBot
             bool activeFlag;
             plcComs = new PlcManager();
 
+            restart:
             try
             {
                 foreach (PLC plc in Config.plcs) { plcComs.addPlcUnit(plc.plcName, plc.ipAddress, plc.slotNumber); }
@@ -982,7 +1018,7 @@ namespace NBot
 
                                 foreach (Notification not in eNot.NotList)
                                 {
-                                    if (not.isTrigger && not.enable && mailServerAlive)
+                                    if (not.isTrigger && not.enable && mailServerAlive && not.plcName.CompareTo(plc.plcName) == 0)
                                     {
                                         if (!(not.bitNumber >= 0 && not.bitNumber < 8)) //Word notification
                                         {
@@ -998,6 +1034,7 @@ namespace NBot
                                                 "PCL Guard System - Notification\n\nLocation: " + Config.location + "\nPLC: " + plc.plcName +
                                                 "\n\nTrigger name: " + not.name + "\nTrigger address: DB" + not.dbNumber + ".DBW" + not.byteNumber + "\nValue: " + not.value,
                                                 eNot.emailAddress, Config.emailHost, Config.emailLogin, Config.emailPassword);
+                                                    WriteLogInterface("Custom trigger " + not.name + "activated on plc " + plc.plcName);
                                                     not.emailSent = true;
                                                 }
                                             }
@@ -1036,11 +1073,24 @@ namespace NBot
                 }
                 catch (Exception ex) { debugLog(ex); }
 
-                RefreshIconInterface();
+                //Abort command
+                if (!shutdownThread)
+                {
+                    RefreshIconInterface();
+                    checkLogInTimeInterface();
 
-                checkLogInTimeInterface();
+                    statusRefreshInterface();
+                }
+                else thread.Abort();
 
-                Thread.Sleep(10000);
+                if (restartThread)
+                {
+                    if (plcComs != null) foreach (PLC plc in Config.plcs) plcComs.closePlcComm(plc.plcName);
+                    restartThread = false;
+                    goto restart;
+                }
+
+                Thread.Sleep(10000);                
             } while (true);
         }
 
@@ -1064,6 +1114,14 @@ namespace NBot
 
         private void ModernWindow_Closing(object sender, System.ComponentModel.CancelEventArgs e)
         {
+            //not loged in cancels command
+            if (lockState == 0)
+            {
+                this.Hide();
+                e.Cancel = true;
+                return;
+            }
+
             WriteLogInterface("Shutting down...");
 
             //Closes all interfaces with PLCs
@@ -1094,9 +1152,10 @@ namespace NBot
             }
             catch (Exception ex) { debugLog(ex); }
 
-            //
-            if (thread != null) thread.Abort();
-
+            //Abort thread command
+            if (thread != null)
+                shutdownThread = true;
+             
             trayIcon.Dispose();
 
             if (!thread.IsAlive)
